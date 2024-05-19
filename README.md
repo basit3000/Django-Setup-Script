@@ -21,8 +21,10 @@ The purpose of this script is to automate the creation of a Python virtual envir
 
 3. **Navigate to the project directory**
 
+    ```sh
     cd <project_directory>
 
 4. **Run the script**
 
+    ```sh
     python script.py
