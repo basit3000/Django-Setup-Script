@@ -17,7 +17,7 @@ The purpose of this script is to automate the creation of a Python virtual envir
     Clone the repository to your local machine using the following command:
 
     ```sh
-    git clone <https://github.com/basit3000/Django-Setup-Script.git>
+    git clone https://github.com/basit3000/Django-Setup-Script.git
 
 3. **Navigate to the project directory**
 
