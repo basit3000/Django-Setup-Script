@@ -1,0 +1,6 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore newsite (created by the command in this case)
+/newsite/
