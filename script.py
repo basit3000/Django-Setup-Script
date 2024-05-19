@@ -19,7 +19,7 @@ try:
     print("Installing Django in virtual environment...")
     run_command('{} -m pip install django'.format(venv_python))
 
-    project_name = input("Please enter the name of the project.")
+    project_name = input("Please enter the name of the project. \n")
 
     print("Creating Django project...")
     run_command('{} -m django startproject {}'.format(venv_python, project_name))
