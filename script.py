@@ -25,7 +25,7 @@ try:
     run_command('{} -m django startproject {}'.format(venv_python, project_name))
 
     print("Running Django development server...")
-    subprocess.run('{} newsite/manage.py runserver'.format(venv_python), shell=True, check=True)
+    subprocess.run('{} {}/manage.py runserver'.format(venv_pythonm, project_name), shell=True, check=True)
 
 except subprocess.CalledProcessError as e:
     print(f"An error occurred while running a command: {e}")
