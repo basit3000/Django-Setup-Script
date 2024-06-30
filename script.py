@@ -14,7 +14,7 @@ try:
 
     print("Creating virtual environment...")
     run_command('python -m venv venv')
-    venv_python = os.path.join('venv', 'Scripts', 'python.exe')
+    venv_python = os.path.join('venv', 'Scripts', 'Activate' ,'python.exe')
 
     print("Installing Django in virtual environment...")
     run_command('{} -m pip install django'.format(venv_python))
@@ -25,7 +25,7 @@ try:
     run_command('{} -m django startproject {}'.format(venv_python, project_name))
 
     print("Running Django development server...")
-    subprocess.run('{} {}/manage.py runserver'.format(venv_pythonm, project_name), shell=True, check=True)
+    subprocess.run('{} {}/manage.py runserver'.format(venv_python, project_name), shell=True, check=True)
 
 except subprocess.CalledProcessError as e:
     print(f"An error occurred while running a command: {e}")
