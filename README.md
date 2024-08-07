@@ -24,7 +24,45 @@ The purpose of this script is to automate the creation of a Python virtual envir
     ```sh
     cd <project_directory>
 
-4. **Run the script**
+4. **Run the script (for Windows)**
+
+    - **For Windows:**
+
+      ```sh
+      python script.py
+      ```
+
+    - **For Linux:**
+
+      ```sh
+      python3 script_linux.py
+      ```
+
+## Running the Django Development Server
+
+After running the setup script, follow these steps:
+
+1. **Navigate to the Project Directory**
 
     ```sh
-    python script.py
+    cd <project_directory>
+    ```
+
+2. **Start the Django Development Server**
+
+    - **For Windows:**
+
+      ```sh
+      python manage.py runserver
+      ```
+
+    - **For Linux:**
+
+      ```sh
+      python3 manage.py runserver
+      ```
+
+## Notes
+
+- Ensure you have the necessary permissions to execute the scripts.
+- If you encounter any issues, refer to the troubleshooting section in the documentation.
